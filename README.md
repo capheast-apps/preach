@@ -1,6 +1,8 @@
 # Sobre
 
 # Sumário
+- [Dependencias](#instrucoes)
+- [Testes](#testes)
 
 # Instruções 
 
@@ -42,3 +44,5 @@ Para ver os logs gerados pelo banco, execute
 ```
   docker exec -it db.preach.dev
 ```
+
+# Testes
