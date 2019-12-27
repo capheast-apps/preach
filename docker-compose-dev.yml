@@ -11,4 +11,4 @@ services:
       - ./:/home/node/app
     ports:
       - "9099:3333"
-    command: "yarn start"
+    command: "yarn dev"
