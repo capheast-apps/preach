@@ -2,6 +2,8 @@ import { Router } from 'express'
 
 const routes = new Router()
 
-routes.get('/', (req, res) => {return res.json({a:1})})
+routes.get('/', function(req, res) {
+    res.sendfile(__dirname + '/index.html');
+});
 
 export default routes
