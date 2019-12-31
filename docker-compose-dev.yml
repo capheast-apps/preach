@@ -12,3 +12,15 @@ services:
     ports:
       - "3333:3333"
     command: "yarn dev"
+  # db:
+  #   image: "mysql:5.7"
+  #   container_name: db.preach.dev 
+  #   environment:
+  #   - MYSQL_ROOT_PASSWORD=root         
+  #   ports:
+  #     - "5306:3306"
+  mongo:
+    image: "mongo"
+    container_name: mongo.preach.dev     
+    ports:
+      - "57017:27017"    
