@@ -1,9 +1,10 @@
 export default {
 	mysql: {
-		uri: 'db.preach.dev',
+		host: 'db.preach.dev',
+  		dialect: 'mysql',
 		port: '3306',
 		user: 'root',
 		password: 'root',
-		database: 'root'
+		database: 'preach'
 	}
 }
