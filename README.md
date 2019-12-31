@@ -3,6 +3,7 @@
 # Sumário
 - [Dependencias](#instrucoes)
 - [Testes](#testes)
+- [Uso](#uso)
 
 # Instruções 
 
