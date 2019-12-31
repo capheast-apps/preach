@@ -31,7 +31,13 @@
     http://localhost:9099
 ```
 
-### 4. Logs
+### 4. Para executar comandos na api
+
+```
+	bash cmd.sh yarn
+```
+
+### 5. Logs
 
 Para ver os logs gerados pela aplicação, execute
 
@@ -46,3 +52,23 @@ Para ver os logs gerados pelo banco, execute
 ```
 
 # Testes
+
+# Uso
+
+## Consulta
+
+(fixo por enquanto)
+
+```
+	http://localhost:3333/bible/verse
+```
+
+## Eventos Socket
+
+### Scroll da Biblia
+
+Evento: 'scrollBible'
+Retorno: 
+- line: Posicao da linha em que o emissor se encontra
+
+

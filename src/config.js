@@ -5,4 +5,4 @@ const configs = {
 }
 
 
-export default 
+export default configs
