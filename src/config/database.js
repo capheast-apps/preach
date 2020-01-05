@@ -1,10 +1,12 @@
-export default {
-	mysql: {
-		host: 'db.preach.dev',
-  		dialect: 'mysql',
-		port: '3306',
-		user: 'root',
+module.exports = {	
+		host: 'pg.preach.dev',
+  		dialect: 'postgres',		
+		username: 'root',
 		password: 'root',
-		database: 'preach'
-	}
+		database: 'preach',
+		define: {
+			timestamps: true, 
+			underscored: true,
+			underscoredAll: true
+		}	
 }

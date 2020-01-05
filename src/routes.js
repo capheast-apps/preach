@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import BibleController from './Controller/BibleController'
+import BibleController from './app/controller/BibleController'
 
 const routes = new Router()
 
