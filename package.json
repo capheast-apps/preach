@@ -20,7 +20,7 @@
     "eslint-plugin-import": "^2.19.1",
     "nodemon": "^2.0.2",
     "sequelize-cli": "^5.5.1",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "sucrase": "^3.11.0"
   }
 }
